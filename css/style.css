@@ -129,3 +129,58 @@ body, html{
     transform: scale(1.1);
     color: #fff;
 }
+
+.greentheme {
+    color: #28a745; /* Green theme color */
+}
+
+/* Button Animation */
+.buttonss {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 30px 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.buttonss:hover {
+    background-color: #28a745;
+    transform: scale(1.1);
+}
+
+/* Hero Image Animation */
+.hero-img {
+    width: 100%;
+    max-width: 450px;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Float Animation */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+/* Client Logo Hover Animation */
+.client-logo {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+.client-logo:hover {
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
