@@ -11,3 +11,17 @@ body, html{
 :root{
     --dark-color-text:black;
 }
+.greentheme{
+    color: #4caf4f;
+}
+.buttonss{
+    background-color:#4caf4f ;
+    color: #ffffff;
+    width: 89px;
+    height: 36px;
+    padding:10px 10px 10px 10px;
+    border: none;
+}
+.company-logo{
+    height: 100px;
+}
