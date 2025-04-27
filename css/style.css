@@ -25,3 +25,107 @@ body, html{
 .company-logo{
     height: 100px;
 }
+
+
+
+.stats-section {
+    background-color: #f8f9fa;
+  
+}
+
+
+
+/* <!-- Animation CSS --> */
+.footer-links li a {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.footer-links li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transition: all 0.4s ease;
+}
+
+.footer-links li a:hover::after {
+    width: 100%;
+}
+
+.footer-links li a:hover {
+    color: #aaa;
+}
+
+
+
+
+.buttonss {
+    background-color: #4caf4f;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.buttonss:hover {
+    background-color: #134414;
+    transform: scale(1.1);
+}
+
+
+
+/* Navbar link underline animation */
+.nav-hover {
+    position: relative;
+    display: inline-block;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.nav-hover::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4caf4f;
+    transition: all 0.4s ease;
+}
+
+.nav-hover:hover::after {
+    width: 100%;
+}
+
+.nav-hover:hover {
+    color: #4caf4f;
+}
+
+/* Animated Custom Button */
+.btn-custom {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf4f;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.btn-custom:hover {
+    background-color: #112d12;
+    transform: scale(1.1);
+    color: #fff;
+}
