@@ -184,3 +184,17 @@ body, html{
     transform: scale(1.1) translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
+
+
+.card-hover {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
